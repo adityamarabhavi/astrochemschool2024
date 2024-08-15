@@ -81,4 +81,5 @@ Attribution
 If the tools are useful for your science, we kindly ask you to cite:
 
 `Arabhavi et al. (2024), <https://ui.adsabs.harvard.edu/abs/2024Sci...384.1086A/abstract>`_ for the modeling tools
+
 `Gordon et al. (2022), <https://ui.adsabs.harvard.edu/abs/2022JQSRT.27707949G/abstract>`_ for the HITRAN spectroscopic data
