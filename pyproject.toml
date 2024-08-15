@@ -17,6 +17,7 @@ dependencies = [
     "spectres",
     "pybaselines",
     "pandas",
+    "ipykernel",
     "numpy",
     "prodimopy",
     "scipy<1.10",

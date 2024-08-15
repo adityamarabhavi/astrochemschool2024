@@ -51,11 +51,17 @@ Clone the repository first and pip install locally:
 .. code-block:: bash
 
   # cd where you want your local repository to be located
-  git clone https://github.com/adityamarabhavi/astrochemschool2024.git
+  git clone https://github.com/adityamarabhavi/astrochemschool2024.git .
   # cd in your local repository
   pip install -e .
 
-In the latter case, you can benefit from the latest changes made to the repository any time, with:
+Install python kernel to access via jupyter (replace ``astrochem2024`` by the name you want for your environment):
+
+.. code-block:: bash
+
+  python -m ipykernel install --user --name astrochem2024 --display-name "astrochem2024"
+
+You can update to the latest changes made to the repository any time, with:
 
 .. code-block:: bash
 
