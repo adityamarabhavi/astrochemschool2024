@@ -31,7 +31,7 @@ Installation and dependencies
 The benefits of using a Python package manager (distribution), such as (ana)conda, are many. Mainly, it brings easy and robust package management and avoids messing up with your system's default python. 
 
 
-Before installing the package, it is **highly recommended to create a dedicated conda environment** to not mess up with the package versions in your base environment. This can be done easily with (replace ``astrochem2024 `` by the name you want for your environment):
+Before installing the package, it is **highly recommended to create a dedicated conda environment** to not mess up with the package versions in your base environment. This can be done easily with (replace ``astrochem2024`` by the name you want for your environment):
 
 .. code-block:: bash
 
@@ -71,6 +71,6 @@ If at a later stage, you would like to use the ``prodimopy`` package and do not 
 Attribution
 -----------
 
-If the tools useful for your science, we kindly ask you to cite:
+If the tools are useful for your science, we kindly ask you to cite:
 
 `Arabhavi et al. (2024), <https://ui.adsabs.harvard.edu/abs/2024Sci...384.1086A/abstract>`_

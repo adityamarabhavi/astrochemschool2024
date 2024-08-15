@@ -1,0 +1,78 @@
+[project]
+name = "astrochemschool2024"
+authors = [
+    {name = "Aditya M Arabhavi", email = "arabhavi@astro.rug.nl"},
+]
+description = "Exercises for Astrochemistry Summer School 2024, Groningen"
+readme = "README.rst"
+license = { file = 'LICENSE' }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "spectres",
+    "pybaselines",
+    "pandas",
+    "numpy",
+    "prodimopy",
+    "scipy<1.10",
+    "ipywidgets>=8",
+    "notebook",
+    "ipympl",
+]
+dynamic = ['version']
+
+[project.optional-dependencies]
+docs = [
+    "sphinx",
+    "sphinx-automodapi",
+    "numpydoc",
+]
+test = [
+    "pytest",
+    "pytest-doctestplus",
+    "flake8",
+    "flake8-pyproject",
+    "codecov",
+    "pytest-cov",
+]
+ray = [
+    "ray[default]"
+]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/adityamarabhavi/astrochemschool2024/issues"
+"Source Code" = "https://github.com/adityamarabhavi/astrochemschool2024"
+
+[build-system]
+requires = [
+    "setuptools>=60",
+    "setuptools_scm>=8.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/data/_version.py"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.flake8]
+max-line-length = 130
+exclude = [
+    'docs',
+    '.tox',
+    '.eggs',
+    'build',
+    '*_version.py',
+]
+
+[tool.coverage.run]
+omit = [
+    "_version.py",
+]
