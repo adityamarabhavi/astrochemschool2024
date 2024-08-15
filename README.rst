@@ -30,6 +30,14 @@ Installation and dependencies
 -----------------------------
 The benefits of using a Python package manager (distribution), such as (ana)conda, are many. Mainly, it brings easy and robust package management and avoids messing up with your system's default python. 
 
+First step is to make sure python is installed on your system. To check try running ``python --version`` on a terminal (linux and mac OS) or command prompt/Windows powershell (on Windows). If it is not installed, Windows 11 will automatically redirect you to the microsoft store page to install the latest version of Python, proceed to install. 
+For Mac OS and Windows, you can also install python by directly downloading it from the official website: https://www.python.org/downloads/
+On Linux, you can run the following on a terminal: ``apt-get install python``. If administrative previleges are required run ``sudo apr-get install python``.
+Check again if python is installed by running ``python --version``.
+
+Make sure that ``conda`` is installed on your system with the command line ``conda --version``. If not installed, please follow the instructions at the bottom of the miniconda installation page 'Quick command line install': https://docs.anaconda.com/miniconda/
+
+The following steps are to be done in the coda environment.
 
 Before installing the package, it is **highly recommended to create a dedicated conda environment** to not mess up with the package versions in your base environment. This can be done easily with (replace ``astrochem2024`` by the name you want for your environment):
 
@@ -43,8 +51,13 @@ Then, to activate it (assuming you named it as above):
 
   conda activate astrochem2024
 
+If ``jupyter`` in not installed, installed via:
 
-The pipeline depends on one major package: ``prodimopy``, which comes with its own set of dependencies from the Python ecosystem, such as ``numpy``, ``scipy``, ``matplotlib``, ``pandas``, ``astropy``, ``spectres`` and others. 
+.. code-block:: bash
+
+  conda install jupyter
+  
+The notebook depends on one major package: ``prodimopy``, which comes with its own set of dependencies from the Python ecosystem, such as ``numpy``, ``scipy``, ``matplotlib``, ``pandas``, ``astropy``, ``spectres`` and others. 
 
 Clone the repository first and pip install locally:
 
@@ -67,6 +80,9 @@ You can update to the latest changes made to the repository any time, with:
 
   git pull
   pip install -e .
+
+
+To open the notebook, in the right conda environment, use ``jupyter notebook``. This should automatically open a jupyter session on your browser. If not then copy the link shown on the terminal via a browser. Then navigate to your notebook to open it.
 
 If at a later stage, you would like to use the ``prodimopy`` package and do not require the other files in this repository, you can also simply install it via:
 
