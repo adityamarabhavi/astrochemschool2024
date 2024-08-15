@@ -66,13 +66,13 @@ You can update to the latest changes made to the repository any time, with:
 .. code-block:: bash
 
   git pull
+  pip install -e .
 
 If at a later stage, you would like to use the ``prodimopy`` package and do not require the other files in this repository, you can also simply install it via:
 
 .. code-block:: bash
 
   pip install prodimopy
-  pip install -e .
 
 
 Attribution
