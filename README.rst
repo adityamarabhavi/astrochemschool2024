@@ -1,10 +1,11 @@
 Astrochemistry Summer School 2024
 =====
 
-|Pythonv| |License|
+|Pythonv| |prodimopy| |License|
 
-.. |Pythonv| image:: https://img.shields.io/badge/Python-3.10%2C%203.11-brightgreen.svg
+.. |Pythonv| image:: https://img.shields.io/badge/Python-3.11%2C%203.12-brightgreen.svg
             :target: https://github.com/adityamarabhavi/astrochemschool2024
+.. |prodimopy| image:: https://img.shields.io/pypi/v/prodimopy?label=prodimopy&color=%23ff8800&link=https%3A%2F%2Fpypi.org%2Fproject%2Fprodimopy%2F
 .. |License| image:: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
             :target: https://github.com/adityamarabhavi/astrochemschool2024/blob/master/LICENSE
 
