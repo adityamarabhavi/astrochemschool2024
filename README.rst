@@ -28,17 +28,32 @@ Then launch and run the exercise.ipynb notebook, after adapting the input path t
 
 Installation and dependencies
 -----------------------------
-The benefits of using a Python package manager (distribution), such as (ana)conda, are many. Mainly, it brings easy and robust package management and avoids messing up with your system's default python. 
+You would need the following three packages to use the exercise notebook: 1) python 2) conda 3) git. Below you find instructions on how to install each package. Please read through once even if you have the packages already installed.
 
-First step is to make sure python is installed on your system. To check try running ``python --version`` on a terminal (linux and mac OS) or command prompt/Windows powershell (on Windows). If it is not installed, Windows 11 will automatically redirect you to the microsoft store page to install the latest version of Python, proceed to install. 
+1) Python:
+----------
+First step is to make sure python is installed on your system. To check try running ``python3 --version`` on a terminal (linux and mac OS) or command prompt/Windows powershell (on Windows). If it is not installed, Windows 11 will automatically redirect you to the microsoft store page to install the latest version of Python, proceed to install. 
 
 For Mac OS and Windows, you can also install python by directly downloading it from the official website: https://www.python.org/downloads/
 
 On Linux, you can run the following on a terminal: ``apt-get install python``. If administrative previleges are required run ``sudo apt-get install python``.
 
-Check again if python is installed by running ``python --version``.
+Exit the current terminal and restart a new terminal window, check again if python is installed by running ``python3 --version``.
 
+2) Conda:
+---------
 Make sure that ``conda`` is installed on your system with the command line ``conda --version``. If not installed, please follow the instructions at the bottom of the miniconda installation page 'Quick command line install': https://docs.anaconda.com/miniconda/
+
+Following the installation of ``conda``, you might need to do the following for it to enter the conda environment:
+
+.. code-block:: bash
+
+  bash
+  source ~/.bash_profile
+  conda init
+  conda activate
+
+You might need to point to a different profile settings than ``.bash_profile``, e.g. ``.bashrc``, ``.zshrc``, etc.
 
 The following steps are to be done in the conda environment.
 
@@ -62,7 +77,14 @@ If ``jupyter`` in not installed, installed via:
   
 The notebook depends on one major package: ``prodimopy``, which comes with its own set of dependencies from the Python ecosystem, such as ``numpy``, ``scipy``, ``matplotlib``, ``pandas``, ``astropy``, ``spectres`` and others. 
 
-Clone the repository first and pip install locally:
+3) Git:
+--------
+Git is a distributed version control system that tracks versions of files. We use this to deliver the files required for this exercise. To check if git is installed on your system try ``git --version`` in the terminal window. If it is not installed, it will redirect you to the installation page, or give you the instructions on how to install it. For MacOS, installing XCode from the App Store will install git. Most Linux distributions come pre-installed with git. 
+
+If git is not installed you can also follow the installation instructions on the git webpage: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+
+Once git is installed, clone the Github repository first and pip install locally (within the conda environment that you created in the previous section):
 
 .. code-block:: bash
 
