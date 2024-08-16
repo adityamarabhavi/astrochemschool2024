@@ -17,18 +17,11 @@ Documentation
 The notebook itself contains detailed instructions.
 
 
-TL;DR setup guide
------------------
-.. code-block:: bash
-
-    pip install git+https://github.com/adityamarabhavi/astrochemschool2024.git
-
-Then launch and run the exercise.ipynb notebook, after adapting the input path to your data.
-
-
 Installation and dependencies
 -----------------------------
-You would need the following three packages to use the exercise notebook: 1) python 2) conda 3) git. Below you find instructions on how to install each package. Please read through once even if you have the packages already installed.
+You would need the following three packages to use the exercise notebook: 1) python 2) conda 3) git. 
+
+Below you find instructions on how to install each package. Please read through once even if you have the packages already installed.
 
 1) Python:
 ----------
@@ -42,7 +35,7 @@ Exit the current terminal and restart a new terminal window, check again if pyth
 
 2) Conda:
 ---------
-Make sure that ``conda`` is installed on your system with the command line ``conda --version``. If not installed, please follow the instructions at the bottom of the miniconda installation page 'Quick command line install': https://docs.anaconda.com/miniconda/
+Make sure that ``conda`` is installed on your system with the command line ``conda --version``. If not installed, please follow the instructions at the bottom of the miniconda installation page 'Quick command line install': https://docs.anaconda.com/miniconda/#quick-command-line-install
 
 Following the installation of ``conda``, you might need to do the following for it to enter the conda environment:
 
@@ -69,7 +62,7 @@ Then, to activate it (assuming you named it as above):
 
   conda activate astrochem2024
 
-If ``jupyter`` in not installed, installed via:
+If ``jupyter`` in not installed, install it via:
 
 .. code-block:: bash
 
@@ -88,9 +81,13 @@ Once git is installed, clone the Github repository first and pip install locally
 
 .. code-block:: bash
 
-  # cd where you want your local repository to be located
+  # make a directory in which you want the repository to be cloned, here we name it astrochemschool2024
+  mkdir astrochemschool2024
+  # change the directory to the one you just made
+  cd astrochemschool2024
+  # clone the files from the remote git repository to your local repository using
   git clone https://github.com/adityamarabhavi/astrochemschool2024.git .
-  # cd in your local repository
+  # the following command installs all dependencies/required packages 
   pip install -e .
 
 Install python kernel to access via jupyter (replace ``astrochem2024`` by the name you want for your environment):
