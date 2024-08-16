@@ -96,6 +96,10 @@ Install python kernel to access via jupyter (replace ``astrochem2024`` by the na
 
   python -m ipykernel install --user --name astrochem2024 --display-name "astrochem2024"
 
+All set! you have successfully installed everything you need for this exercise!
+
+Miscellaneous:
+--------------
 You can update to the latest changes made to the repository any time, with:
 
 .. code-block:: bash
