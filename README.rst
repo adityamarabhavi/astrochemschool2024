@@ -31,13 +31,16 @@ Installation and dependencies
 The benefits of using a Python package manager (distribution), such as (ana)conda, are many. Mainly, it brings easy and robust package management and avoids messing up with your system's default python. 
 
 First step is to make sure python is installed on your system. To check try running ``python --version`` on a terminal (linux and mac OS) or command prompt/Windows powershell (on Windows). If it is not installed, Windows 11 will automatically redirect you to the microsoft store page to install the latest version of Python, proceed to install. 
+
 For Mac OS and Windows, you can also install python by directly downloading it from the official website: https://www.python.org/downloads/
-On Linux, you can run the following on a terminal: ``apt-get install python``. If administrative previleges are required run ``sudo apr-get install python``.
+
+On Linux, you can run the following on a terminal: ``apt-get install python``. If administrative previleges are required run ``sudo apt-get install python``.
+
 Check again if python is installed by running ``python --version``.
 
 Make sure that ``conda`` is installed on your system with the command line ``conda --version``. If not installed, please follow the instructions at the bottom of the miniconda installation page 'Quick command line install': https://docs.anaconda.com/miniconda/
 
-The following steps are to be done in the coda environment.
+The following steps are to be done in the conda environment.
 
 Before installing the package, it is **highly recommended to create a dedicated conda environment** to not mess up with the package versions in your base environment. This can be done easily with (replace ``astrochem2024`` by the name you want for your environment):
 
