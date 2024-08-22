@@ -72,6 +72,12 @@ If ``jupyter`` in not installed, install it via:
   
 The notebook depends on one major package: ``prodimopy``, which comes with its own set of dependencies from the Python ecosystem, such as ``numpy``, ``scipy``, ``matplotlib``, ``pandas``, ``astropy``, ``spectres`` and others. 
 
+Install python kernel to access via jupyter (replace ``astrochem2024`` by the name you want for your environment):
+
+.. code-block:: bash
+
+  python -m ipykernel install --user --name astrochem2024 --display-name "astrochem2024"
+
 3) Git:
 --------
 Git is a distributed version control system that tracks versions of files. We use this to deliver the files required for this exercise. To check if git is installed on your system try ``git --version`` in the terminal window. If it is not installed, it will redirect you to the installation page, or give you the instructions on how to install it. For MacOS, installing XCode from the App Store will install git. Most Linux distributions come pre-installed with git. 
@@ -92,11 +98,6 @@ Once git is installed, clone the Github repository first and pip install locally
   # the following command installs all dependencies/required packages 
   pip install -e .
 
-Install python kernel to access via jupyter (replace ``astrochem2024`` by the name you want for your environment):
-
-.. code-block:: bash
-
-  python -m ipykernel install --user --name astrochem2024 --display-name "astrochem2024"
 
 All set! you have successfully installed everything you need for this exercise!
 
