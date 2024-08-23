@@ -1,3 +1,6 @@
+.. image:: summerschoollogos.png
+    :align: center
+
 Astrochemistry Summer School 2024
 =====
 
@@ -117,11 +120,6 @@ If ``jupyter`` in not installed, install it via:
 
   conda install jupyter
 
-Install python kernel to access via jupyter (replace ``astrochem2024`` by the name you want for your environment):
-
-.. code-block:: bash
-
-  python -m ipykernel install --user --name astrochem2024 --display-name "astrochem2024"
 
 3) Git:
 --------
@@ -143,6 +141,11 @@ Once git is installed, clone the Github repository first and pip install locally
   # the following command installs all dependencies/required packages 
   pip install -e .
 
+Install python kernel to access via jupyter (replace ``astrochem2024`` by the name you want for your environment):
+
+.. code-block:: bash
+
+  python -m ipykernel install --user --name astrochem2024 --display-name "astrochem2024"
 
 All set! you have successfully installed everything you need for this exercise!
 
