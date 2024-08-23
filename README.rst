@@ -17,11 +17,14 @@ We have in total six exercises (see 'Documentation'). Please install the require
 Documentation
 -------------
 
-**Blue (Astrophysical context) - JWST spectra and molecular slab models**.. raw:: html
+**Blue (Astrophysical context) - JWST spectra and molecular slab models**
+.. raw:: html
    <br>
-Directory: blue_jwst_slab_models.. raw:: html
+Directory: blue_jwst_slab_models
+.. raw:: html
    <br>
-Author(s): Aditya M. Arabhavi, Inga Kamp.. raw:: html
+Author(s): Aditya M. Arabhavi, Inga Kamp
+.. raw:: html
    <br>
 You will work with public JWST spectra of 3 astrophysical objects: (1) disk around a T Tauri star; (2) disk around a Very Low Mass Star; (3) a Photon-Dominated Region (PDR). You will inspect the spectra to find out which atomic and molecular line emission is present and you will study how molecular emission changes as a function of temperature and column density using simple molecular slab models.
 
