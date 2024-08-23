@@ -1,0 +1,520 @@
+{
+    "observed": {
+        "name":"Elias 29",
+        "path":"./data/observational/Elias29.dat"
+    },
+    "lab": [
+        {
+            "name":"Silicate",
+            "path":"./data/laboratory/LIDA Ices/Silica_GCS3_Kemper/0.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.0e22,
+            "n_upper":"none",
+            "n_lower":3
+        },
+        {
+            "name":"CO2 10.0K Ehrenfreund",
+            "path":"./data/laboratory/LIDA Ices/CO2_Ehrenfreund/10.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":3.17e17,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"CO2 50.0K Ehrenfreund",
+            "path":"./data/laboratory/LIDA Ices/CO2_Ehrenfreund/50.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":3.17e17,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"CO2 80.0K Ehrenfreund",
+            "path":"./data/laboratory/LIDA Ices/CO2_Ehrenfreund/80.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":3.17e17,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"H2O 15K Oeberg",
+            "path":"./data/laboratory/LIDA Ices/H2O_Oeberg/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.0e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"H2O 105K Oeberg",
+            "path":"./data/laboratory/LIDA Ices/H2O_Oeberg/105.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.0e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"CO 15K Fraser",
+            "path":"./data/laboratory/LIDA Ices/CO_Fraser/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.26e17,
+            "n_upper":10,
+            "n_lower":10
+        },
+        {
+            "name":"CO 18K Fraser",
+            "path":"./data/laboratory/LIDA Ices/CO_Fraser/18.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.26e17,
+            "n_upper":10,
+            "n_lower":10
+        },
+        {
+            "name":"CO 20K Fraser",
+            "path":"./data/laboratory/LIDA Ices/CO_Fraser/20.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.26e17,
+            "n_upper":10,
+            "n_lower":10
+        },
+        {
+            "name":"CO 22.5K Fraser",
+            "path":"./data/laboratory/LIDA Ices/CO_Fraser/22.5K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.26e17,
+            "n_upper":10,
+            "n_lower":10
+        },
+        {
+            "name":"CO 25K Fraser",
+            "path":"./data/laboratory/LIDA Ices/CO_Fraser/25.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.26e17,
+            "n_upper":10,
+            "n_lower":10
+        },
+        {
+            "name":"CO 28K Fraser",
+            "path":"./data/laboratory/LIDA Ices/CO_Fraser/28.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.26e17,
+            "n_upper":10,
+            "n_lower":10
+        },
+        {
+            "name":"CO 30K Fraser",
+            "path":"./data/laboratory/LIDA Ices/CO_Fraser/30.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.26e17,
+            "n_upper":10,
+            "n_lower":10
+        },
+        {
+            "name":"CO 35K Fraser",
+            "path":"./data/laboratory/LIDA Ices/CO_Fraser/35.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.26e17,
+            "n_upper":10,
+            "n_lower":10
+        },
+        {
+            "name":"CO2:CH3OH 1:1 10.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CH3OH_1_1_Ehrenfreund/10.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e17,
+            "n_upper":30,
+            "n_lower":20
+        },
+        {
+            "name":"CO2:CH3OH 1:1 58.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CH3OH_1_1_Ehrenfreund/58.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e17,
+            "n_upper":30,
+            "n_lower":20
+        },
+        {
+            "name":"CO2:CH3OH 1:1 72.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CH3OH_1_1_Ehrenfreund/72.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e17,
+            "n_upper":30,
+            "n_lower":20
+        },
+        {
+            "name":"CO2:CH3OH 1:1 84.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CH3OH_1_1_Ehrenfreund/84.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e17,
+            "n_upper":30,
+            "n_lower":20
+        },
+        {
+            "name":"CO2:CH3OH 1:1 95.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CH3OH_1_1_Ehrenfreund/95.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e17,
+            "n_upper":30,
+            "n_lower":20
+        },
+        {
+            "name":"CO2:H20 1:1 30.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+H2O_1_1_Ehrenfreund/30.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.75e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"CO2:H20 10:1 40.0K",
+            "path":"./data/laboratory/LIDA Ices/H2O_CO2_10_1_Ehrenfreund/50.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.65e+18,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"HCOOH:H2O:CO 8:62:30 15.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOH+H2O+CO_8_62_30_Bisschop/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":1.74e+18,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"HCOOH:H2O 20:80 75.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOH_H2O_20_80_Bisschop/75.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"HCOOH:H2O 20:80 90.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOH_H2O_20_80_Bisschop/90.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"HCOOH:H2O 20:80 105.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOH_H2O_20_80_Bisschop/105.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"HCOOH:H2O 20:80 120.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOH_H2O_20_80_Bisschop/120.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"HCOOH:H2O 20:80 135.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOH_H2O_20_80_Bisschop/135.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"H2O:CH3OH:CO2:CH4 0.6:0.7:1:0.1 10.0K",
+            "path":"./data/laboratory/LIDA Ices/H20+CH3OH+CO2+CH4_0.6_0.7_1.0_0.1_Ehrenfreund/10.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"H2O:CH3OH:CO2:CH4 0.6:0.7:1:0.1 51.0K",
+            "path":"./data/laboratory/LIDA Ices/H20+CH3OH+CO2+CH4_0.6_0.7_1.0_0.1_Ehrenfreund/51.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"H2O:CH3OH:CO2:CH4 0.6:0.7:1:0.1 87.0K",
+            "path":"./data/laboratory/LIDA Ices/H20+CH3OH+CO2+CH4_0.6_0.7_1.0_0.1_Ehrenfreund/87.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"H2O:CH3OH:CO2:CH4 0.6:0.7:1:0.1 119.0K",
+            "path":"./data/laboratory/LIDA Ices/H20+CH3OH+CO2+CH4_0.6_0.7_1.0_0.1_Ehrenfreund/119.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e+17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"H2O:CH3CH2OH 20:1 15.0K",
+            "path":"./data/laboratory/LIDA Ices/H2O+CH3CH2OH_20_1_Terwisscha/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e18,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"H2O:CH3CH2OH 20:1 30.0K",
+            "path":"./data/laboratory/LIDA Ices/H2O+CH3CH2OH_20_1_Terwisscha/30.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e18,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"H2O:CH3CH2OH 20:1 70.0K",
+            "path":"./data/laboratory/LIDA Ices/H2O+CH3CH2OH_20_1_Terwisscha/70.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e18,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"H2O:CH3CH2OH 20:1 100.0K",
+            "path":"./data/laboratory/LIDA Ices/H2O+CH3CH2OH_20_1_Terwisscha/100.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e18,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"NH3 10.0K",
+            "path":"./data/laboratory/LIDA Ices/NH3_Taban/10.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":3.7e17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"NH3 27.0K",
+            "path":"./data/laboratory/LIDA Ices/NH3_Taban/27.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":3.7e17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"NH3 60.0K",
+            "path":"./data/laboratory/LIDA Ices/NH3_Taban/60.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":3.7e17,
+            "n_upper":20,
+            "n_lower":10
+        },
+        {
+            "name":"CO2:CO 1:1 15.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CO_1_1_vB/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":4.4e17,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"CO2:CO 1:1 20.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CO_1_1_vB/20.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":4.4e17,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"CO2:CO 1:1 30.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CO_1_1_vB/30.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":4.4e17,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"CO2:CO 1:1 40.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CO_1_1_vB/40.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":4.4e17,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"CO2:CO 1:1 50.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2+CO_1_1_vB/50.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":4.4e17,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"C3H6O:H2O 1:5 15.0K",
+            "path":"./data/laboratory/LIDA Ices/C3H6O_H2O_1_5_Rachid/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"C3H6O:H2O 1:5 30.0K",
+            "path":"./data/laboratory/LIDA Ices/C3H6O_H2O_1_5_Rachid/30.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"C3H6O:H2O 1:5 70.0K",
+            "path":"./data/laboratory/LIDA Ices/C3H6O_H2O_1_5_Rachid/70.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"C3H6O:H2O 1:5 90.0K",
+            "path":"./data/laboratory/LIDA Ices/C3H6O_H2O_1_5_Rachid/90.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"HCOOCH3 15.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOCH3_Schneltinga/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.1e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"HCOOCH3 30.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOCH3_Schneltinga/30.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.1e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"HCOOCH3 50.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOCH3_Schneltinga/50.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.1e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"HCOOCH3 80.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOCH3_Schneltinga/80.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.1e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"CH3CN 15.0K",
+            "path":"./data/laboratory/LIDA Ices/CH3CN_Rachid/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":3e18,
+            "n_upper":50,
+            "n_lower":50
+        },
+        {
+            "name":"HCOOH:H2O 1:4 105.0K",
+            "path":"./data/laboratory/LIDA Ices/HCOOH_H2O_20_80_Bisschop/105.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":5.5e17,
+            "n_upper":30,
+            "n_lower":20
+        },
+        {
+            "name":"H2O:CH3OH:CO2:CH4 6:7:10:1 51.0K",
+            "path":"./data/laboratory/LIDA Ices/H20+CH3OH+CO2+CH4_0.6_0.7_1.0_0.1_Ehrenfreund/51.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":3.1e17,
+            "n_upper":30,
+            "n_lower":20
+        },
+        {
+            "name":"H2O:CH3CH2OH 20:1 15.0K",
+            "path":"./data/laboratory/LIDA Ices/H2O+CH3CH2OH_20_1_Terwisscha/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":2.5e17,
+            "n_upper":30,
+            "n_lower":20
+        },
+        {
+            "name":"NH3 10.0K Taban",
+            "path":"./data/laboratory/LIDA Ices/NH3_Taban/10.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "lab column density":3.7e17,
+            "n_upper":30,
+            "n_lower":20
+        },
+        {
+            "name":"CO2:CO 1:1 15.0K",
+            "path":"./data/laboratory/LIDA Ices/CO2_CO_1_1_Fraser/15.0K.txt",
+            "database":"LIDA",
+            "weight":0.0,
+            "n_upper":30,
+            "n_lower":20
+        }
+    ]
+}

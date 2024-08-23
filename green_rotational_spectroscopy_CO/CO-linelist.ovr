@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Overlays Name="CO-linelist.ovr" Units="MHz" IntensityUnits="Normalized" Version="PGOPHER 10.1.182 4 Dec 2018 16:58 64 bit Unicode (Delphi 32/32)">
+  <ExperimentalPlot Name="CO-linelist.dat" Comment="D:\Surfdrive\Uni-Exchange\Lehre\PigsInSpace\Tutorials\Tutorial3_pgopher\CO\CO-linelist.dat" Units="MHz" IntensityUnits="Normalized" IsLineList="True" Colour="Maroon">    <![CDATA[
+115271.2 1
+230538 1
+345796 1
+461040.8 1
+576267.9 1
+1036912.4 1
+1267014.5 1
+]]>
+</ExperimentalPlot>
+</Overlays>
