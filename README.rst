@@ -17,34 +17,37 @@ We have in total six exercises (see 'Documentation'). Please install the require
 Documentation
 -------------
 
-**Blue (Astrophysical context) - JWST spectra and molecular slab models**
-| Directory: blue_jwst_slab_models
-| Author(s): Aditya M. Arabhavi, Inga Kamp
+**Blue (Astrophysical context) - JWST spectra and molecular slab models**.. raw:: html
+   <br>
+Directory: blue_jwst_slab_models.. raw:: html
+   <br>
+Author(s): Aditya M. Arabhavi, Inga Kamp.. raw:: html
+   <br>
 You will work with public JWST spectra of 3 astrophysical objects: (1) disk around a T Tauri star; (2) disk around a Very Low Mass Star; (3) a Photon-Dominated Region (PDR). You will inspect the spectra to find out which atomic and molecular line emission is present and you will study how molecular emission changes as a function of temperature and column density using simple molecular slab models.
 
 **Pink (Numerical models/theory) - atomic line emission**
-| Directory: pink_atomic_line_emission
-| Author(s): Jacques Le Bourlot
+Directory: pink_atomic_line_emission
+Author(s): Jacques Le Bourlot
 You will work with emission lines of ionised oxygen to learn about excitation and de-excitation and how to use line ratios in low density astrophysical environments to extract the gas temperature.
 
 **Orange (Chemical processes in space) - Surface Astrochemistry**
-| Directory: orange_surface_astrochem
-| Author(s): Thanja Lamberts
+Directory: orange_surface_astrochem
+Author(s): Thanja Lamberts
 You will learn how to quantify the various processes occurring on grain surfaces in space: adsorption, desorption, and chemical reactions within the ices. The goal is to understand how you can build complex molecules on the surfaces of cold dust grains through hydrogenation and the HCO radical.
 
 **Orange (Chemical processes in space) - Astrochemistry of Large Carbonaceous Molecules**
-| Directory: orange_astrochem_large_carbon_molecules
-| Author(s): 
+Directory: orange_astrochem_large_carbon_molecules
+Author(s): 
 You will learn in this exercise about the different vibration modes of Polycyclic Aromatic Hydrocarbons and how they are excited in space by UV photons. The same photons also carry enough energy for chemical reactions to proceed such as the isomerisation and you will study how it proceeds.
 
 **Green (Laboratory techniques) - Rotational spectroscopy of CO**
-| Directory: green_rotational_spectroscopy_CO
-| Author(s): Sandra Brunken
+Directory: green_rotational_spectroscopy_CO
+Author(s): Sandra Brunken
 You will study the CO rotational spectrum at radio wavelengths and use Pgopher to extract from the spectrum basic molecular constants and molecular line data, e.g. the rotational constant B, the rotational partition function, and Einstein A coefficients for the rotational lines.
 
 **Green (Laboratory techniques) - Fitting ice observations from a protostar**
-| Directory: green_fiting_ice_obs
-| Author(s): 
+Directory: green_fiting_ice_obs
+Author(s): 
 You will work with the ice spectrum of the low mass protostar Elias29. Using the MIST tool and the Leiden Ice Database (LIDA), you will find out which ices and/or ice-mixtures reside in the line of sight towards this protostar and compare your answers to the literature values.
 
 
