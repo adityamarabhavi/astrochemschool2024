@@ -146,7 +146,17 @@ Once git is installed, clone the Github repository first and pip install locally
 
 All set! you have successfully installed everything you need for this exercise!
 
-Miscellaneous:
+Open the exercises:
+-------------------
+First make sure you are in the conda environment (if not then ``conda activate astrochem2024``). To open the exercise notebooks, use:
+
+.. code-block:: bash
+
+  jupyter notebook
+  
+This should automatically open a jupyter session on your browser. If not then copy the link shown on the terminal via a browser. Then navigate to your notebook to open it.
+
+Updating the contents:
 --------------
 You can update to the latest changes made to the repository any time, with:
 
@@ -155,6 +165,3 @@ You can update to the latest changes made to the repository any time, with:
   conda activate astrochem2024
   git pull
   pip install -e .
-
-
-To open the notebook, in the right conda environment, use ``jupyter notebook``. This should automatically open a jupyter session on your browser. If not then copy the link shown on the terminal via a browser. Then navigate to your notebook to open it.
