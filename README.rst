@@ -68,7 +68,7 @@ You will work with the ice spectrum of the low mass protostar Elias29. Using the
 
 Installation and dependencies
 -----------------------------
-You would need the following three packages to use the exercise notebook: 1) python 2) conda 3) git. 
+You would need the following three packages to use the exercise notebooks and materials: 1) python 2) conda 3) git. 
 
 Below you find instructions on how to install each package. Please read through once even if you have the packages already installed.
 
@@ -116,8 +116,6 @@ If ``jupyter`` in not installed, install it via:
 .. code-block:: bash
 
   conda install jupyter
-  
-The notebook depends on one major package: ``prodimopy``, which comes with its own set of dependencies from the Python ecosystem, such as ``numpy``, ``scipy``, ``matplotlib``, ``pandas``, ``astropy``, ``spectres`` and others. 
 
 Install python kernel to access via jupyter (replace ``astrochem2024`` by the name you want for your environment):
 
@@ -160,19 +158,3 @@ You can update to the latest changes made to the repository any time, with:
 
 
 To open the notebook, in the right conda environment, use ``jupyter notebook``. This should automatically open a jupyter session on your browser. If not then copy the link shown on the terminal via a browser. Then navigate to your notebook to open it.
-
-If at a later stage, you would like to use the ``prodimopy`` package and do not require the other files in this repository, you can also simply install it via:
-
-.. code-block:: bash
-
-  pip install prodimopy
-
-
-Attribution
------------
-
-If the tools are useful for your science, we kindly ask you to cite:
-
-`Arabhavi et al. (2024), <https://ui.adsabs.harvard.edu/abs/2024Sci...384.1086A/abstract>`_ for the modeling tools
-
-`Gordon et al. (2022), <https://ui.adsabs.harvard.edu/abs/2022JQSRT.27707949G/abstract>`_ for the HITRAN spectroscopic data
